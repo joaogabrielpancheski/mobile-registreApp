@@ -22,7 +22,7 @@ class RegistryFormViewController: UIViewController {
         super.viewDidLoad()
 
         if let registry = registry {
-            title = "Edição"
+            title = "Editar"
             textFieldTitle.text = registry.title
             texTFieldAddress.text = registry.address
             textViewDescription.text = registry.registryDescription
